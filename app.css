@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(26, 23, 23);
+    color:rgb(255, 255, 255);
+  }
+
+  .cell {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 1.5em;
+  }
+
+  table{
+    text-align: center;
+    background-color: black;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+td {
+    background-color: #9AD1D4;
+    border-radius: 5px;
+    border: black 1px solid;
+}
+
+td:hover{
+    background-color: #6ec2c7;
+    cursor: pointer;
+}
+
+
+
+.board-container td {
+    width: 40px;
+    height:40px;
+    text-align: center;
+    font-size:1.4em;
+}
+
