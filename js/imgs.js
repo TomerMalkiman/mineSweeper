@@ -8,3 +8,4 @@ const NUM6 = '<img class="num6" src="../img/num6.png" />';
 const FLAG = '<img class="flag" src="../img/flag.png" />';
 const RED_MINE = '<img class="red-mine" src="../img/red-bomb.png" />';
 const EMPTY = '<img class="empty" src="../img/empty.png" />';
+const RED_FLAG = '<img class="red-flag" src="../img/red-flag.png" />';

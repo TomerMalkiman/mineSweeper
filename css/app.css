@@ -1,5 +1,6 @@
 body {
-    background-color: rgb(26, 23, 23);
+    background-image: url(../img/sea.jpg);
+    background-size: cover;
     color:rgb(255, 255, 255);
   }
 
@@ -9,6 +10,13 @@ body {
     text-align: center;
     font-size: 1.5em;
   }
+
+  h1{
+    font-style:oblique;
+    color:burlywood
+  }
+
+  
 
   table{
     text-align: center;
@@ -37,14 +45,13 @@ td:hover{
   font-size:1.4em;
 }
 
-
-
-
-td #cell-1-2{
-  background-color: #5aa1a1;
-  border-radius: 5px;
-  border: black 1px solid;
+.name{
+  padding: 3%;
+  color: rgb(177, 177, 214);
+  font-style: italic;
 }
+
+
 
 .time {
   font-size: x-large;
@@ -88,6 +95,11 @@ h2 span{
 }
 
 .flag{
+  width: 40px;
+  height: 40px;
+}
+
+.red-flag{
   width: 40px;
   height: 40px;
 }
