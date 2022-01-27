@@ -1,0 +1,103 @@
+body {
+    background-color: rgb(26, 23, 23);
+    color:rgb(255, 255, 255);
+  }
+
+  .cell {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 1.5em;
+  }
+
+  table{
+    text-align: center;
+    background-color: black;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+td {
+    background-color: #9AD1D4;
+    border-radius: 5px;
+    border: black 1px solid;
+}
+
+td:hover{
+    background-color: #6ec2c7;
+    cursor: pointer;
+}
+
+.board-container td {
+  width: 40px;
+  height:40px;
+  text-align: center;
+  font-size:1.4em;
+}
+
+
+
+
+td #cell-1-2{
+  background-color: #5aa1a1;
+  border-radius: 5px;
+  border: black 1px solid;
+}
+
+.time {
+  font-size: x-large;
+  color: red;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 span{
+  color: rgb(238, 25, 25);
+}
+
+.mine-img{
+  width: 40px;
+  height: 40px;
+}
+
+.num1{
+  width: 40px;
+  height: 40px;
+}
+
+.num2{
+  width: 40px;
+  height: 40px;
+}
+.num3{
+  width: 40px;
+  height: 40px;
+}
+.num4{
+  width: 40px;
+  height: 40px;
+}
+.num5{
+  width: 40px;
+  height: 40px;
+}
+.num6{
+  width: 40px;
+  height: 40px;
+}
+
+.flag{
+  width: 40px;
+  height: 40px;
+}
+
+.red-mine{
+  width: 40px;
+  height: 40px;
+}
+
+.empty{
+  width: 40px;
+  height: 40px;
+}

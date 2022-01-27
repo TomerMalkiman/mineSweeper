@@ -1,0 +1,10 @@
+const MINE = '<img class="mine-img"  src="../img/black-bomb.png" />';
+const NUM1 = '<img class="num1" src="../img/num1.png" />';
+const NUM2 = '<img class="num2" src="../img/num2.png" />';
+const NUM3 = '<img class="num3" src="../img/num3.png" />';
+const NUM4 = '<img class="num4" src="../img/num4.png" />';
+const NUM5 = '<img class="num5" src="../img/num5.png" />';
+const NUM6 = '<img class="num6" src="../img/num6.png" />';
+const FLAG = '<img class="flag" src="../img/flag.png" />';
+const RED_MINE = '<img class="red-mine" src="../img/red-bomb.png" />';
+const EMPTY = '<img class="empty" src="../img/empty.png" />';
