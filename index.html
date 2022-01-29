@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,32 +8,40 @@
     <link rel="stylesheet" href="css/app.css">
     <title>Minesweeper game</title>
 </head>
-<body onload="initGame()" >
+
+<body onload="initGame()">
     <center>
-    <h1>Minesweeper</h1>
-    <h2>Lives : <span></span></h2>
-    <div class="time"></div>
+        <h1>MineSweeper</h1>
+        <h2>Lives : <span></span></h2>
+        <div class="time"></div>
 
-      </div>
-    <button class="start-btn"  onclick="initGame()" ><span>😃</span></button>
-    <table class="center">
-        <tbody class="board-container"></tbody>
-    </table>
+        </div>
+        <button class="hint" onclick="showNeighs()"><span>hints:3</span></button>
+        <button class="start-btn" onclick="initGame()"><span>😃</span></button>
+        <button class="safe" onclick="showSafeCell()">Safe Clicks: <br> <span></span></button>
+        <div class="test" ></div>
+        
 
-    <div class="mines"></div>
-    <div class="time"></div>
-    <button class="basic" onclick="updateLevel(4,2)">Basic</button>
-    <button class="pro" onclick="updateLevel(8,12)">Pro</button>
-    <button class="expert" onclick="updateLevel(12,30)">Expert</button>
-    <button class="hint" onclick="showNeighs()"><span>hints:3</span></button>
-    <div class="name">Tomer Malkiman</div>
-
-    <script src="js/game.js"></script>
-    <script src="js/utils.js"></script>
-    <script src="js/imgs.js"></script>
+        <table class="center">
+            <tbody class="board-container"></tbody>
+        </table>
 
 
+        <div class="mines"></div>
+        <button class="boom7" onclick="create7Boom()">7 BOOM!</button>
+        <button class="undo" onclick="undoMove()">Undo</button>
+        <div> <button class="basic" onclick="updateLevel(4,2)">Basic</button>
+            <button class="pro" onclick="updateLevel(8,12)">Pro</button>
+            <button class="expert" onclick="updateLevel(12,30)">Expert</button>
+        </div>
 
-</center>
+
+        <div class="name">Tomer Malkiman</div>
+
+        <script src="js/game.js"></script>
+        <script src="js/utils.js"></script>
+
+    </center>
 </body>
+
 </html>

@@ -1,8 +1,52 @@
 body {
-    background-image: url(../img/sea.jpg);
-    background-size: cover;
+    background-image: url(../img/test3.jpg); 
+    background-size:cover;
     color:rgb(255, 255, 255);
+    
   }
+  
+  .start-btn{
+    padding: 3px;
+  margin-top: 5px;
+  border: 2px solid rgb(14, 3, 3);
+  border-radius: 10px;
+  width: 35px;
+  background-color: #f10c0c;
+  cursor: pointer;
+  }
+
+  .hint{
+    padding: 3px;
+    margin-top: 5px;
+    border: 2px solid rgb(8, 47, 223);
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  
+
+  button{
+    width: 80px;
+    height: 40px;
+  }
+
+  
+
+  .safe{
+   width: 90px;
+    padding: 3px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 2px solid rgb(5, 245, 113);
+    border-radius: 10px;
+    
+    cursor: pointer;
+    
+    
+  }
+ 
+
+  
 
   .cell {
     width: 40px;
@@ -13,14 +57,15 @@ body {
 
   h1{
     font-style:oblique;
-    color:burlywood
+    color:burlywood;
+    font-weight: bold;
   }
 
   
 
   table{
     text-align: center;
-    background-color: black;
+    background-color: rgb(5, 5, 5);
     border-radius: 5px;
     margin-left: auto;
     margin-right: auto;
@@ -28,7 +73,8 @@ body {
 }
 
 td {
-    background-color: #9AD1D4;
+   background-color: #9AD1D4; ;
+  background-size:contain;
     border-radius: 5px;
     border: black 1px solid;
 }
@@ -38,11 +84,13 @@ td:hover{
     cursor: pointer;
 }
 
+
 .board-container td {
   width: 40px;
   height:40px;
   text-align: center;
   font-size:1.4em;
+  background-size:contain;
 }
 
 .name{
@@ -57,6 +105,12 @@ td:hover{
   font-size: x-large;
   color: red;
   font-family: Georgia, 'Times New Roman', Times, serif;
+
+  border: 2px solid rgb(228, 206, 13);
+  border-radius: 10px;
+  padding: 3px;
+  width:7%;
+  
 }
 
 h2 span{
@@ -113,3 +167,57 @@ h2 span{
   width: 40px;
   height: 40px;
 }
+
+
+.basic{
+  padding: 3px;
+  margin-top: 5px;
+  border: 4px solid #0a0000;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.pro{
+  color: #140603;
+  background-color: rgb(212, 247, 16);
+  padding: 3px;
+  margin-top: 5px;
+  border: 4px solid rgb(23, 9, 77);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+.expert{
+  background-image: linear-gradient(144deg,#40ff60, #f3a642 50%,#ce3d18);
+  padding: 3px;
+  margin-top: 5px;
+  border: 4px solid rgb(22, 4, 4);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.boom7{
+  background-color: rgb(14, 3, 3);
+  color: red;
+  padding: 3px;
+  margin-top: 5px;
+  border: 4px solid rgb(252, 251, 251);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.undo{
+  background-color: rgb(120, 120, 226);
+  padding: 3px;
+  margin-top: 5px;
+  border: 4px solid rgb(14, 3, 3);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.test{
+  position: absolute;
+  left: 700px ;
+}
+
